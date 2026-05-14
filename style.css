@@ -1,0 +1,144 @@
+/* The 'body' styles the whole page background and default text */
+body {
+    font-family: 'Bricolage Grotesque',Georgia, Arial, Helvetica,sans-serif;
+    background-color: #a3d9ffff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-size: cover;
+    background-position: center;  
+    background-repeat: no-repeat;
+    min-height: 100vh;    
+}
+
+/* The navigation bar at the top */
+nav {
+    background-color:#20bf55ff;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+}
+
+/* Styling the links in our navigation bar */
+nav a {
+    color: cyan;
+    text-decoration: none; /* Removes the underline */
+    font-size: 20px;
+    margin: 0 15px;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #d1495bff;
+    border-radius: 100px; /* Makes the corners rounded */
+}
+
+/* Change color when we hover over the links with our mouse */
+nav a:hover {
+    background-color: #d40000;
+}
+
+/* The 'page-section' keeps our content neat and centered */
+.page-section {
+    max-width: 800px;
+    margin: 40px auto; /* Centers the box */
+    background-color: #925e78ff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow:4px 8px rgba(0,0,0,0.2); /* Adds a cool shadow */
+}
+
+/* Make sure images and videos don't overflow on small screens */
+img, iframe {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Styling our main headings */
+h1 {
+    color: #2622ff; 
+}
+
+/* Styling our paragraphs */
+p {
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 1.6;
+}
+summary {
+    color: #333333;
+}
+
+/* A special class just for our external NASA link */
+.external-link {
+    background-color:#e8c547ff;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    max-width: 800px;
+    margin: 40px auto; /* Centers the box */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow:4px 8px rgba(0,0,0,0.2); /* Adds a cool shadow */
+}
+/* style.css */
+#my-background-element {
+    background-image: url('https://montrealgrandprix.com/wp-content/uploads/4564670088_65347e5e72_o.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+.photo {
+    max-width: 800px;
+    margin: 40px auto; /* Centers the box */
+    background-color: #00fff0;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow:4px 8px rgba(0,0,0,0.2); /* Adds a cool shadow */
+}
+.heading {
+    max-width: 800px;
+    margin: 40px auto; /* Centers the box */
+    background-color:  #ffdbdaff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow:4px 8px rgba(0,0,0,0.2); /* Adds a cool shadow */
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+    text-align: auto;
+    vertical-align: auto;
+}
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 12px;
+  font-family: 'Bricolage Grotesque';
+}
+
+thead th {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 12px 16px;
+  border-radius: 100px
+}
+tbody td {
+  background-color: #f9f9f9;
+  padding: 12px 16px;
+  border-bottom: 1px solid #ddd;
+}
+
+tbody tr:hover td {
+  background-color: #f1f1f1;
+}
+h4 {
+    color:#ffffff;
+}
+
+.home-page {
+    background-image: url('https://static.zawya.com/view/acePublic/alias/contentid/NzIwOTU3NGMtYjVhYS00/0/afp_33bm8rp-jpg.webp');
+}
+.info-page {
+    background-image: url("https://montrealgrandprix.com/wp-content/uploads/4564670088_65347e5e72_o.jpg")
+}
